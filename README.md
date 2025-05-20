@@ -32,5 +32,5 @@
 - 🔍 Verificarea și validarea sistemelor soft
 - ⚖️ Calcul numeric
 - 🎮 Grafică pe calculator
-- 🕰️ Istoria informaticii
+- 🕰️ [Istoria informaticii](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/80f06f9b370f7d87af4de1acc5df636cd0d6c168/ANUL%203/ISTORIA%20INFORMATICII)
 - 🧠 Gestiunea proiectelor soft
