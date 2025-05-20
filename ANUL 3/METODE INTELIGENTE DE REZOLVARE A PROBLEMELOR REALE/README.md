@@ -1,8 +1,5 @@
 <h1>PREDICTIVE MENTAL HEALTH MONITORING SYSTEM</h1>
-<h2>ECHIPA: SYNERGY SQUAD 💻</h2>
-<p>Kentsch Karina<p>
-<p>Irimies Vasile</p>
-<p>Lechea Daniel</p>
+
 
 <h2>App deploy</h2>
 <a href="https://github.com/MasterSpider-beep/MobileInovativeApp/tree/master">Git repository</a>
