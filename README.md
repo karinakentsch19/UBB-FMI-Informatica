@@ -13,7 +13,7 @@
 ## Anul II
 - 🦉 [Programare logică și funcțională](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/25e97eb9f727c6a1be4e9d486754e594530f4094/ANUL%202/PROGRAMARE%20LOGICA%20SI%20FUNCTIONALA)
 - 💾 [Baze de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/8fa93d7ebfeebe9b4abbda8127365b099b8421e4/ANUL%202/BAZE%20DE%20DATE)
-- ☕ Metode avansate de programare
+- ☕ [Metode avansate de programare](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/24b6ac038f4ffbb5f15b0632cc08ca4ceb6f1ee2/ANUL%202/METODE%20AVANSATE%20DE%20PROGRAMARE)
 - 📡 Rețele de calculatoare
 - 🎲 [Probabilități și statistică](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/a56a184a190c5d0bd783f2a26d222fe055c9d84a/ANUL%202/PROBABILITATI%20SI%20STATISTICA/Laboratoare)
 - 💻 Programare web
