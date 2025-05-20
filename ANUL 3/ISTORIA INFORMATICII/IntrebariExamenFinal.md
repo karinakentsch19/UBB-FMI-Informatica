@@ -1,7 +1,4 @@
-## Întrebări Istoria Informaticii - Soluții
-> link prescurtat 👀: [bit.ly/grileist](https://bit.ly/grileist)
-
-> Folosiți pagina în light mode ☀️ pentru o experiență mai bună
+## Întrebări Istoria Informaticii Examen
 
 #### 1. Cine a inventat termenul de algoritm?
 R: ___```    Abu Abdullah Muḥammad ibn Mūsā al-Khwārizmī    ```___
