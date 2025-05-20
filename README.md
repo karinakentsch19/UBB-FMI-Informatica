@@ -26,7 +26,7 @@
 - 🧪 [Limbaje formale și tehnici de compilare](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/7dcfcc4d70ec725211dd5a0e315ff96455590800/ANUL%203/LIMBAJE%20FORMALE%20SI%20TEHNICI%20DE%20COMPILARE)
 - 🔗 [Programare paralelă și distribuită](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/f688ac9f16d332b835df1488d461af0a22a3f7a5/ANUL%203/PROGRAMARE%20PARALELA%20SI%20DISTRIBUITA)
 - 📱 [Programare pentru dispozitive mobile](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/a4854120a82a0d86febb94c212b1cb8c647e08f7/ANUL%203/PROGRAMARE%20PENTRU%20DISPOZITIVE%20MOBILE)
-- ☁️ Interacțiunea om-calculator
+- ☁️ [Interacțiunea om-calculator](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/8943e53775639062b7df18e978950e5df757f3ca/ANUL%203/INTERACTIUNEA%20OM-CALCULATOR)
 - ⚙️ Metode de rezolvare a problemelor reale
 - 🤝 Proiect colectiv
 - 🔍 Verificarea și validarea sistemelor soft
