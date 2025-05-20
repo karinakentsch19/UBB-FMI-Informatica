@@ -1,14 +1,14 @@
 # Cursuri UBB FMI – Informatică Română
 
 ## Anul I
-- [x] 🎲 Logică computațională
-- [x] 🐍 Fundamentele programării
-- [x] 🖥️ Arhitectura sistemelor de calcul
-- [x] 🔧 Programare orientată obiect
+- [] 🎲 Logică computațională
+- [x] 🐍 [Fundamentele programării](./Anul%201/FUNDAMENTELE%20PROGRAMARII.md)
+- [] 🖥️ Arhitectura sistemelor de calcul
+- [] 🔧 Programare orientată obiect
 - [ ] 📈 Sisteme dinamice
 - [ ] 🗃️ Structuri de date și algoritmi
-- [ ] 🚀 Algoritmica grafelor
-- [x] 🐧 Sisteme de operare
+- [x] 🚀 Algoritmica grafelor
+- [] 🐧 Sisteme de operare
 
 ## Anul II
 - [x] 🦉 Programare logică și funcțională
