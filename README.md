@@ -23,7 +23,7 @@
 - 🟡 [Sisteme de gestiune a bazelor de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/76a3dba58416d08307df5100b3dfc679676b4306/ANUL%202/SISTEME%20DE%20GESTIUNE%20A%20BAZELOR%20DE%20DATE)
 
 ## Anul III
-- 🧪 Limbaje formale și tehnici de compilare
+- 🧪 [Limbaje formale și tehnici de compilare](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/7dcfcc4d70ec725211dd5a0e315ff96455590800/ANUL%203/LIMBAJE%20FORMALE%20SI%20TEHNICI%20DE%20COMPILARE)
 - 🔗 Programare paralelă și distribuită
 - 📱 Programare pentru dispozitive mobile
 - ☁️ Interacțiunea om-calculator
