@@ -1,11 +1,5 @@
 <h1>PREDICTIVE MENTAL HEALTH MONITORING SYSTEM</h1>
 
-
-<h2>App deploy</h2>
-<a href="https://github.com/MasterSpider-beep/MobileInovativeApp/tree/master">Git repository</a>
-
-<a href="https://expo.dev/accounts/iosublucian/projects/ProiectMentalHealth/builds/63fa1c87-a9ec-4621-8d9d-272c6b5e422a">App</a>
-
 <h2>IDEEA DE BAZA</h2>
 <p> Sistemul de monitorizare a sanatatii mintale reprezinta o solutie inovatoare ce foloseste dispozitive
  purtabile, pentru a urmari indicatori esentiali de sanatate si a oferi informatii in timp real despre
