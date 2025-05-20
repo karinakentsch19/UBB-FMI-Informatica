@@ -15,7 +15,7 @@
 - 💾 [Baze de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/8fa93d7ebfeebe9b4abbda8127365b099b8421e4/ANUL%202/BAZE%20DE%20DATE)
 - ☕ Metode avansate de programare
 - 📡 Rețele de calculatoare
-- 🎲 Probabilități și statistică
+- 🎲 [Probabilități și statistică](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/a56a184a190c5d0bd783f2a26d222fe055c9d84a/ANUL%202/PROBABILITATI%20SI%20STATISTICA/Laboratoare)
 - 💻 Programare web
 - 🤖 Inteligență artificială
 - 🧰 Medii de proiectare și programare
