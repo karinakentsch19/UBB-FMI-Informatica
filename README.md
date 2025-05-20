@@ -12,7 +12,7 @@
 
 ## Anul II
 - 🦉 Programare logică și funcțională
-- 💾 Baze de date
+- 💾 [Baze de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/8fa93d7ebfeebe9b4abbda8127365b099b8421e4/ANUL%202/BAZE%20DE%20DATE)
 - ☕ Metode avansate de programare
 - 📡 Rețele de calculatoare
 - 🎲 Probabilități și statistică
