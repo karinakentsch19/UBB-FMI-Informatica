@@ -1,0 +1,9 @@
+--Cod rau: UNCOMMITTED
+--Cod bun: COMMITTED
+
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+BEGIN TRAN
+	select * from Pacienti
+	WAITFOR DELAY '00:00:10'
+	select * from Pacienti
+COMMIT TRAN
