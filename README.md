@@ -2,7 +2,7 @@
 
 ## Anul I
 - 🎲 Logică computațională
-- 🐍 [Fundamentele programării](<./Anul 1/FUNDAMENTELE PROGRAMARII/>)
+- 🐍 [Fundamentele programării](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/4c213dd50242fb72027eb9f8c846abeddcf5e96b/ANUL%201/FUNDAMENTELE%20PROGRAMARII)
 - 🖥️ Arhitectura sistemelor de calcul
 - 🔧 Programare orientată obiect
 - 📈 Sisteme dinamice
