@@ -31,5 +31,5 @@
   <li>Formarea unui ANN cu evolutia fiecarei masuratori rezultata din LSTM</li>
   <li>Antrenarea retelei si testarea calitatii acesteia.</li>
  </ol>
- <img src="schemaRezolvarii.png" alt="Schita solutiei">
+ <img src="schemaRezolvarii (1).png" alt="Schita solutiei">
 
