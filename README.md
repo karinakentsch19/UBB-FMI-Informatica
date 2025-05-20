@@ -2,7 +2,7 @@
 
 ## Anul I
 - [] 🎲 Logică computațională
-- [x] 🐍 [Fundamentele programării](./Anul%201/FUNDAMENTELE%20PROGRAMARII.md)
+- [x] 🐍 [Fundamentele programării](./Anul%201/FUNDAMENTELE%20PROGRAMARII/)
 - [] 🖥️ Arhitectura sistemelor de calcul
 - [] 🔧 Programare orientată obiect
 - [ ] 📈 Sisteme dinamice
