@@ -1,0 +1,6 @@
+.disabled-input {
+    --ion-text-color: black;
+    --ion-color-base: black;
+    --color: black; /* Ensures text is black in most cases */
+    opacity: 1; /* Removes any dimming applied to disabled inputs */
+}
