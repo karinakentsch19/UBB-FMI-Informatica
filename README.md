@@ -20,7 +20,7 @@
 - 🤖 Inteligență artificială
 - 🧰 Medii de proiectare și programare
 - 🏗️ Ingineria sistemelor soft
-- 🟡 Sisteme de gestiune a bazelor de date
+- 🟡 [Sisteme de gestiune a bazelor de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/76a3dba58416d08307df5100b3dfc679676b4306/ANUL%202/SISTEME%20DE%20GESTIUNE%20A%20BAZELOR%20DE%20DATE)
 
 ## Anul III
 - 🧪 Limbaje formale și tehnici de compilare
