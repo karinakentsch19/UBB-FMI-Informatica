@@ -1,0 +1,35 @@
+ID -> <litera> | <litera> ID | <litera> <cifra> ID 
+<litera> -> “A” | “B”|…|”Z”|”a”|”b”|…|”z”
+
+CONST -> <nr_intreg> | <nr_intreg> “.” <nr_intreg> 
+<nr_intreg> -> <cifra> | <cifra> <nr_intreg>
+<cifra> ->  “0” | “1” | … |”9”
+CONST -> R
+
+
+<program> -> "start" <lista_instructiuni> "end"
+<citire> -> "read" <stream_citire>
+<stream_citire> -> “>>” ID | “>>” ID <stream_citire> | “>>” ID “.” ID
+<scriere> -> “write” <stream_scriere>
+<stream_scriere> -> “<<” ID | “<<” <stream_scriere> | “<<” ID “.” ID
+
+<lista_instructiuni> -> <instr> <lista_instructiuni> | <instr>
+<instr> -> <atribuire> ";" | <citire> ";" | <scriere> ";" | <conditionala> | <repetitiva> | <declaratie> ";"
+
+<atribuire> -> ID "=" <expresie>
+<expresie> -> ID | CONST | ID <operatie> <expresie> | CONST <operatie> <expresie> | ID "." ID <operatie> <expresie> | ID "." ID
+<operatie> -> "+" | "-" | "/" | "%" | "*"
+
+<conditionala> -> “if” “(”<conditie> ”)” ”{” <lista_instructiuni> ”}” | “if” “(”<conditie> ”)” ”{” <lista_instructiuni> ”}” “else” “{“<lista_instructiuni>”}”
+<conditie> -> <expresie_logica> | <expresie_logica> <operator_logic> <conditie>
+
+<expresie_logica> -> ID <comparator> ID | ID <comparator> CONST
+<comparator> -> "<" | ">" | "==" | "!="
+<operator_logic> -> "&&" | "||"
+
+<repetitiva> -> “while” “(“<expresie_logica> “)” “{” <lista_instructiuni>“}” | "cattimp" "(" ID ")" "executa" <lista_instructiuni> "sfcattimp"
+<tip_de_data_predef> -> “struct” ID “{” <declaratie> “}” “;”
+
+<lista_decalratii> -> ID | ID "," <lista_declaratii>
+<declaratie> -> <tip_data> <lista_declaratii>
+<tip_data> -> "int" | "bool" | "float" | <tip_de_data_predef>

@@ -1,0 +1,23 @@
+ID -> <litera> | <litera> ID | <litera> <cifra> ID 
+<litera> -> “A” | “B”|…|”Z”|”a”|”b”|…|”z”
+
+CONST -> <nr_intreg> | <nr_intreg> “.” <nr_intreg> 
+<nr_intreg> -><cifra> | <cifra> <nr_intreg>
+<cifra > -> “0” | “1” | … |”9”
+CONST -> R
+
+<program> -> “start” <declaratie> ";" <lista_instructiuni> “end”
+<citire_scriere> -> “read” “>>” ID | “write” “<<” ID
+
+<lista_instructiuni> -> <instr> <lista_instructiuni> | <instr> 
+<instr> -> <atribuire>  “;”| <citire>”;” | <scriere> “;”
+
+<atribuire> -> ID “=” <expresie> 
+<expresie> -> <termen> | <expresie> "+" <termen> | <expresie> "-" <termen> 
+<termen> -> <factor> | <termen> "*" <factor> | <termen> "/" <factor> | <termen> "%" <factor>
+<factor> -> ID | CONST
+
+
+<lista_declaratii> -> ID | ID “,” <lista_declaratii>
+<declaratie> -> <tip_data> <lista_declaratii>
+<tip_data> -> “int” | “bool” | “float”

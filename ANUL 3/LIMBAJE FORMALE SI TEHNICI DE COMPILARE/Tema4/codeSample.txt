@@ -1,0 +1,14 @@
+start
+	int numar, n,suma;
+	read>>n;
+	suma=0; 
+	while(n!=0){
+	    read>>numar;
+		suma=suma+numar;
+		n=n-1;
+	} 
+	cattimp (n) executa
+		suma=suma+numar;
+	sfcattimp
+write<<suma;
+end
