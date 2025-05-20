@@ -1,0 +1,33 @@
+.images{
+  border: solid black;
+  width: fit-content;
+  height: fit-content;
+}
+
+.imageList{
+  grid-template-columns: auto auto;
+  display: grid;
+  list-style-type: none;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+.imageList li{
+  background-color: #43faf7;
+  padding: 25px 25px 10px 25px;
+}
+
+.imageList li img{
+  width: 170px;
+  height: 200px;
+}
+
+.imageList p{
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+

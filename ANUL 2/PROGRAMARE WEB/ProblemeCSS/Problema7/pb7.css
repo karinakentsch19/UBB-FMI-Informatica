@@ -1,0 +1,47 @@
+.dialog{
+  list-style-type: none;
+  margin: 0;
+}
+
+.dialog li{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 20px 40px 30px;
+  text-align: center;
+  width: fit-content;
+  max-width: calc(100% - 200px);
+  height: fit-content;
+  left: 100px;
+  position: relative;
+}
+
+.dialog li::before{
+  width: 75px;
+  height: 60px;
+  position: absolute;
+  top: -5px;
+  left: -140px;
+}
+
+.dialog li::after{
+  position: absolute;
+  top: 10px;
+  left: -12px;
+  width: 30px;
+  height: 18px;
+  background-color: white;
+  box-shadow: -2px 1px 0 0 black;
+  transform: skew(-15deg, -15deg) rotate(45deg);
+  content: " ";
+}
+
+.alice:before{
+  background: url("aliceAndBob.png") 0 0;
+  content: " ";
+}
+
+.bob:before{
+  background: url("aliceAndBob.png") 0 -60px;
+  content: " ";
+}

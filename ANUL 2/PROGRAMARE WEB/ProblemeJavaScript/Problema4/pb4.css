@@ -1,0 +1,14 @@
+table, th, td, tr{
+    border: 3px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table{
+    width: 30%;
+    height: 20%;
+}
+
+html, body{
+    height: 100%;
+}

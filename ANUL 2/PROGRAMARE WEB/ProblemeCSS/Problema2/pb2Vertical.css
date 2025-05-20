@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+
+.header{
+  background-color: #4C5C1D;
+  color: white;
+  display: flex;
+  height: 10%;
+}
+
+.navigationBar{
+  height: 80%;
+  width: 20%;
+  float: left;
+  display: flex;
+
+}
+
+.navigationBar ul{
+  background-color: #A1C349;
+  list-style-type: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.navigationBar li{
+  display: flex;
+  flex: 1; /*fiecare element ocupa spatiu egal*/
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.mainContent{
+  background-color: #CAD593;
+  color: black;
+  height: 80%;
+}
+
+.footer{
+  background-color: #4C5C1D;
+  color: white;
+  height: 10%;
+}

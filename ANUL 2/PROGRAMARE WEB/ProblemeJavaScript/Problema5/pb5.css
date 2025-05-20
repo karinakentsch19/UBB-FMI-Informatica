@@ -1,0 +1,35 @@
+li {
+    position: absolute; /* Position images absolutely within the list items */
+    top: 100px; /* Align images to the top of the list items */
+    left: 200px; /* Align images to the left of the list items */
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+li img {
+    width: 400px;
+    height: 250px;
+}
+#poze ul {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+}
+#poze li, button {
+    display: inline-block;
+    padding: 10px;
+}
+#poze {
+    display: flex;
+    align-items: center;
+}
+
+#prevButton{
+    position: absolute;
+    top: 225px;
+    left: 100px;
+}
+
+#nextButton{
+    position: absolute;
+    top: 225px;
+    left: 700px;
+}

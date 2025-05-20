@@ -1,0 +1,39 @@
+#inputNume, #inputPrenume, #inputCNP{
+  height: 25px;
+  background: url("http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif") repeat-x;
+  background-size: 25px;
+  border: 0;
+  letter-spacing: 18px;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+label{
+  margin-right: 10px;
+  width: 100%;
+  text-align: right;
+}
+
+.formular{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: fit-content;
+}
+
+#inputNume{
+  width: 380px;
+}
+
+#inputPrenume{
+  width: 380px;
+}
+
+#inputCNP{
+  width: 330px;
+}
+
+#inputNume:focus, #inputPrenume:focus, #inputCNP:focus {
+  outline: none;
+}
+
+

@@ -1,0 +1,14 @@
+.main{
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.text, .poza{
+  width: 200px;
+  text-align: center;
+  horiz-align: center;
+  height: inherit;
+}

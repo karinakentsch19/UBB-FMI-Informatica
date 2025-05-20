@@ -1,0 +1,99 @@
+.sprites {
+  list-style-type: none;
+}
+
+.sprites li {
+  display: inline-block;
+  /*display: block;*/
+  width: 84px;
+  height: 84px;
+}
+
+#facebook:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(0 * -84px) 0;
+}
+
+#facebook {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(0 * -84px) -84px;
+}
+
+#flicker:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(1 * -84px) 0;
+}
+
+#flicker {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(1 * -84px) -84px;
+}
+
+#dribbble:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(2 * -84px) 0;
+}
+
+#dribbble {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(2 * -84px) -84px;
+}
+
+#google:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(3 * -84px) 0;
+}
+
+#google {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(3 * -84px) -84px;
+}
+
+#linkedin:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(4 * -84px) 0;
+}
+
+#linkedin {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(4 * -84px) -84px;
+}
+
+#pinterest:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(5 * -84px) 0;
+}
+
+#pinterest {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(5 * -84px) -84px;
+}
+
+#wifi:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(6 * -84px) 0;
+}
+
+#wifi {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(6 * -84px) -84px;
+}
+
+
+#skype:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(7 * -84px) 0;
+}
+
+#skype {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(7 * -84px) -84px;
+}
+
+#twitter:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(8 * -84px) 0;
+}
+
+#twitter {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(8 * -84px) -84px;
+}
+
+#vimeo:hover {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(9 * -84px) 0;
+}
+
+#vimeo {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(9 * -84px) -84px;
+}
+
+#youtube:hover  {
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(10 * -84px) 0;
+}
+
+#youtube{
+  background: url("https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png") calc(10 * -84px) -84px;
+}
