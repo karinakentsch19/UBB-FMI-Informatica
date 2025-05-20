@@ -24,7 +24,7 @@
 
 ## Anul III
 - 🧪 [Limbaje formale și tehnici de compilare](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/7dcfcc4d70ec725211dd5a0e315ff96455590800/ANUL%203/LIMBAJE%20FORMALE%20SI%20TEHNICI%20DE%20COMPILARE)
-- 🔗 Programare paralelă și distribuită
+- 🔗 [Programare paralelă și distribuită](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/f688ac9f16d332b835df1488d461af0a22a3f7a5/ANUL%203/PROGRAMARE%20PARALELA%20SI%20DISTRIBUITA)
 - 📱 Programare pentru dispozitive mobile
 - ☁️ Interacțiunea om-calculator
 - ⚙️ Metode de rezolvare a problemelor reale
