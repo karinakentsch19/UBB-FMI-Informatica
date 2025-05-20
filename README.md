@@ -6,8 +6,8 @@
 - 🖥️ Arhitectura sistemelor de calcul
 - 🔧 Programare orientată obiect
 - 📈 Sisteme dinamice
-- 🗃️ [Structuri de date și algoritmi](./Anul%201/STRUCTURI%20DE%20DATE%20SI%20ALGORITMI/)
-- 🚀 [Algoritmica grafelor](./Anul%201/ALGORITMICA%20GRAFELOR/)
+- 🗃️ [Structuri de date și algoritmi](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/410eff2ab43c77151c1c65cf33ea379c82d12230/ANUL%201/STRUCTURI%20DE%20DATE%20SI%20ALGORITMI)
+- 🚀 [Algoritmica grafelor](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/410eff2ab43c77151c1c65cf33ea379c82d12230/ANUL%201/ALGORITMICA%20GRAFELOR)
 - 🐧 Sisteme de operare
 
 ## Anul II
