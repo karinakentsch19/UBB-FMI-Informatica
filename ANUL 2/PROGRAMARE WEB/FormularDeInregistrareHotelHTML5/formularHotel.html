@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kentsch Karina">
+  <title>Formular de înregistrare hotel</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7565/7565004.png">
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+<div style="margin: auto; width: 75%">
+  <form>
+    <table>
+      <tr>
+        <th style="background-color: #ffc0cb;font-size: xx-large">FORMULAR DE ÎNREGISTRARE HOTEL</th>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td><b>NUME</b></td>
+              <td colspan="2">
+                <input type="text" id="nume" name="nume">
+              </td>
+
+              <td><b>PRENUME</b></td>
+              <td colspan="4">
+                <input type="text" id="prenume" name="prenume">
+              </td>
+            </tr>
+
+            <tr>
+              <td><b>INSTITUȚIE</b></td>
+              <td colspan="2">
+                <input type="text" id="institutie" name="institutie">
+              </td>
+
+              <td><b>FUNCȚIE</b></td>
+              <td colspan="4">
+                <input type="text" id="functie" name="functie">
+              </td>
+            </tr>
+
+            <tr>
+              <td><b>ADRESĂ</b></td>
+              <td>
+                <input type="text" id="adresa" name="adresa">
+              </td>
+
+              <td><b>ORAȘ</b></td>
+              <td>
+                <input type="text" id="oras" name="oras">
+              </td>
+
+              <td><b>JUDEȚ</b></td>
+              <td>
+                <input type="text" id="judet" name="judet">
+              </td>
+
+              <td><b>ȚARĂ</b></td>
+              <td>
+                <input type="text" id="tara" name="tara">
+              </td>
+            </tr>
+
+            <tr>
+              <td title="Cod Numeric Personal"><b>CNP</b></td>
+              <td>
+                <input type="text" id="cnp" name="cnp" maxlength="13" minlength="13">
+              </td>
+
+              <td><b>SERIA</b></td>
+              <td>
+                <input type="text" id="seria" name="seria">
+              </td>
+
+              <td><b>NR</b></td>
+              <td>
+                <input type="text" id="nr" name="nr">
+              </td>
+
+              <td><b>SEX</b></td>
+              <td>
+                <input type="radio" id="male" name="sex" value="male">
+                <label for="male">M</label>
+
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="female">F</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><b>TELEFON</b></td>
+              <td colspan="2">
+                <input type="text" id="telefon" name="telefon">
+              </td>
+
+              <td><b>FAX</b></td>
+              <td colspan="2">
+                <input type="text" id="fax" name="fax">
+              </td>
+
+              <td><b>EMAIL</b></td>
+              <td>
+                <input type="email" id="email" name="email">
+              </td>
+            </tr>
+
+            <tr>
+              <td><b>BANCĂ</b></td>
+              <td colspan="2">
+                <input type="text" id="banca" name="banca">
+              </td>
+
+              <td><b>COD IBAN</b></td>
+              <td colspan="4">
+                <input type="text" id="codIban" name="codIban">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table style="width: 100%">
+            <tr>
+              <th style="background-color: #faedef; text-align: left" colspan="6">REZERVARE HOTEL</th>
+            </tr>
+
+            <tr>
+              <td><b>Data sosirii</b></td>
+              <td>
+                <input type="date" id="dataSosirii" name="dataSosirii">
+              </td>
+              <td><b>Data plecării</b></td>
+              <td>
+                <input type="date" id="dataPlecarii" name="dataPlecarii">
+              </td>
+              <td><b>Nr. nopți</b></td>
+              <td>
+                <input type="number" id="nrNopti" name="nrNopti" min="1" max="100" step="1">
+              </td>
+            </tr>
+
+            <tr>
+              <td><b>Tip cameră</b></td>
+              <td>
+                <select id="tipCamera" name="tipCamera">
+                  <option value="single">Single</option>
+                  <option value="double" selected>Double</option>
+                  <option value="penthouse">Penthouse</option>
+                  <option value="familyRoom">Family Room</option>
+                </select>
+              </td>
+
+              <td>
+                <div>
+                  <p><b>Mese incluse</b></p>
+                  <select id="meseIncluse" name="meseIncluse" size="3" multiple>
+                    <option value="micDejun">Mic Dejun</option>
+                    <option value="pranz">Prânz</option>
+                    <option value="cina">Cină</option>
+                    <option value="brunch" disabled>Brunch</option>
+                  </select>
+                </div>
+
+              </td>
+
+              <td colspan="3">
+                <div>
+                  <b>Servicii incluse</b><br>
+                  <input type="checkbox" id="curatenie" name="curatenie" checked>
+                  <label for="curatenie">Curățenie</label><br>
+                  <input type="checkbox" id="prosoapeDePlaja" name="prosoapeDePlaja">
+                  <label for="prosoapeDePlaja">Prosoape de Plajă</label><br>
+                  <input type="checkbox" id="uscatorDePar" name="uscatorDePar">
+                  <label for="uscatorDePar">Uscător De Păr</label><br>
+                  <input type="checkbox" id="aerConditionat" name="aerConditionat">
+                  <label for="aerConditionat">Aer Condiționat</label><br>
+                  <input type="checkbox" id="miniFrigider" name="miniFrigider">
+                  <label for="miniFrigider">Mini Frigider</label><br>
+                  <input type="checkbox" id="seif" name="seif">
+                  <label for="seif">Seif</label>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="3" colspan="2" style="font-size: x-large"><b>PREȚ FINAL</b></td>
+              <td>
+                <div>
+                  Preț in <span style="color: hotpink">EURO</span>
+                  <input type="text" id="pretEuro" name="pretEuro">
+                </div>
+              </td>
+
+              <td colspan="3" rowspan="3" style="text-align: center">
+                <img
+                  src="https://www.theviennablog.com/wp-content/uploads/2024/02/MaldivesTravelTips.jpg"
+                  alt="Maldive" width=450 height=220>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div>
+                  Preț in <span style="color: hotpink">LEI</span>
+                  <input type="text" id="pretLei" name="pretLei">
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div>
+                  <span style="color: deeppink"><strong>IMPORTANT!</strong></span>
+                  <input type="text" id="tvaInclus" name="tvaInclus" value="Tva-ul este inclus in preț!" readonly>
+                </div>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div>
+            <b>Observații</b><br>
+            <textarea id="observatii" name="observatii" rows="3" cols="10" style="width: 100%">A se completa cu eventuale observații</textarea>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+
+          <fieldset style="border-color: lightpink">
+            <legend>
+              <mark style="background-color: lightpink">Reguli pentru copii</mark>
+            </legend>
+            <ol>
+              <li>Copiii nu au voie să stea nesupravegheați mai ales lângă:
+                <ul>
+                  <li>piscină</li>
+                  <li>mare</li>
+                  <li>scări</li>
+                </ul>
+              </li>
+
+              <li>Pot accesa locul de joacă între orele:
+                <ol type="A">
+                  <li>10:00 - 13:00</li>
+                  <li>15:00 - 18:00</li>
+                </ol>
+              </li>
+
+            </ol>
+          </fieldset>
+
+          <fieldset style="border-color: lightpink">
+            <legend>
+              <mark style="background-color: lightpink">Reguli pentru exterior</mark>
+            </legend>
+            <ol type="I" start="1">
+              <li>Nu este permisă aruncarea gunoaielor pe jos</li>
+              <li>Nu se sta pe șezlongurile altor persoane</li>
+              <li>Obiectele pierdute pot fi duse/recuperate de la:
+                <ol>
+                  <li>recepție</li>
+                  <li>clubul de pe plajă</li>
+                </ol>
+              </li>
+
+            </ol>
+          </fieldset>
+
+          <fieldset style="border-color: lightpink">
+            <legend>
+              <mark style="background-color: lightpink">Reguli pentru interior</mark>
+            </legend>
+            <ol type="i">
+              <li>Nu se aleargă pe holuri</li>
+              <li>Nu se vor deranja ceilalți oameni</li>
+              <li>Nu se aruncă gunoi pe jos</li>
+            </ol>
+          </fieldset>
+
+          <fieldset style="border-color: lightpink">
+            <legend>
+              <mark style="background-color: lightpink">Reguli restaurant</mark>
+            </legend>
+            <ul>
+              <li>ținută smart-casual</li>
+              <li>fără șlapi</li>
+              <li>fără costum de baie vizibil</li>
+              <li>încercați să nu faceți risipă de mâncare</li>
+            </ul>
+          </fieldset>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h2><span><u style="text-decoration-color: lightpink">DESPRE HOTELUL NOSTRU</u></span> &#11088; &#11088;
+            &#11088; &#11088; &#11088;</h2>
+          <div>
+            <h3>Bun venit în paradis!</h3>
+            <p>O stațiune de lux in Maldive unde puteți experimenta cel mai bun mod de a trăi pe o insulă de paradis.
+              <br>Uită de griji și intră în lumea relaxantă pe care ți-o oferim prin servicii de lux!</p>
+          </div>
+
+          <div>
+            <h4>Nu uita să te înscrii la activitățile noastre!</h4>
+            <p>Jet Ski Safari, Yoga, Scuba diving și multe altele...</p>
+          </div>
+
+          <div>
+            <h3>Detalii de contact</h3>
+            <ul>
+              <li>Telefon: 0748123465</li>
+              <li>Email: luxuryhotelsmaldives@gmail.com</li>
+              <li>Site oficial: <a href="https://www.luxresorts.com/" target="_blank" style="color: lightpink">Luxury
+                Resort Maldives</a></li>
+            </ul>
+          </div>
+
+          <button type="button" onclick="alert('Înregistrare realizată cu succes')"
+                  style="font-size: x-large; background-color: lightpink; border-color: lightpink;">SALVARE DATE
+          </button>
+        </td>
+      </tr>
+
+    </table>
+  </form>
+</div>
+</body>
+</html>
+
+
