@@ -1,0 +1,12 @@
+div{
+    background-color: #fff8f0;
+}
+
+h1{
+    color: #113946;
+}
+
+#note, td, tr, th{
+    border: 1px solid;
+    border-collapse: collapse;
+}

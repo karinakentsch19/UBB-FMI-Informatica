@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<div class ="container">
+    <table>
+        <tr>
+            <th>
+                LOGIN
+            </th>
+            <th>
+                SIGN UP
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form action="autentificare.php" method = "POST">
+                    <label>Username</label><br>
+                    <input type="text" name='username'  placeholder="Enter username" required><br>
+                    <label>Password</label><br>
+                    <input type="password" name='password'  placeholder="Enter password" required>
+                    <button type="submit" >Login </button>
+                </form>
+            </td>
+            <td>
+                <form action="inregistrare.php" method = "POST">
+                    <label>Username</label><br>
+                    <input type="text" name='username' placeholder="Enter username" required><br>
+                    <label>Email</label><br>
+                    <input type="email" name='email'  placeholder="Enter email" required><br>
+                    <label>Password</label><br>
+                    <input type="password" name='password'  placeholder="Enter password" required>
+                    <button type="submit" >Sign up</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

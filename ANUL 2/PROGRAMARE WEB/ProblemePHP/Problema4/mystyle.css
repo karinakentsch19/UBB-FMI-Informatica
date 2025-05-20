@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+}
+table{
+    border: 1px solid #113946 ;
+    margin: 0 auto;
+    background-color: #fff8f0;
+}
+
+td {
+    border-left-color: #113946;
+    padding: 20px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #113946;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    width:100%;
+    height:100%;
+}
+
+
