@@ -31,6 +31,6 @@
 - 🤝 Proiect colectiv
 - 🔍 Verificarea și validarea sistemelor soft
 - ⚖️ Calcul numeric
-- 🎮 Grafică pe calculator
+- 🎮 [Grafică pe calculator](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/7d4bab042f4303c219b9ca4e20f3dd802f71da4e/ANUL%203/GRAFICA%20PE%20CALCULATOR)
 - 🕰️ [Istoria informaticii](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/80f06f9b370f7d87af4de1acc5df636cd0d6c168/ANUL%203/ISTORIA%20INFORMATICII)
 - 🧠 Gestiunea proiectelor soft
