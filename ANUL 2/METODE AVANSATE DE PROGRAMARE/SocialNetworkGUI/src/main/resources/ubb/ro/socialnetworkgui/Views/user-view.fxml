@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.ro.socialnetworkgui.Controller.UserController">
+   <children>
+      <SplitPane dividerPositions="0.5" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane prefHeight="398.0" prefWidth="270.0">
+               <children>
+                  <VBox prefHeight="398.4" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TableView fx:id="UsersTable" prefHeight="215.0" prefWidth="296.0">
+                          <columns>
+                              <TableColumn fx:id="IdColumn" prefWidth="75.0" text="Id" />
+                            <TableColumn fx:id="FirstnameColumn" prefWidth="75.0" text="FirstName" />
+                            <TableColumn fx:id="LastnameColumn" prefWidth="75.0" text="LastName" />
+                              <TableColumn fx:id="PasswordColumn" prefWidth="75.0" text="Password" />
+                          </columns>
+                        </TableView>
+                        <HBox alignment="TOP_CENTER" prefHeight="185.0" prefWidth="292.0" spacing="10.0">
+                           <children>
+                              <Button fx:id="previousButton" mnemonicParsing="false" onAction="#pressOnPreviousButton" text="PREV">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Button>
+                              <Button fx:id="nextButton" mnemonicParsing="false" onAction="#pressOnNextButton" text="NEXT">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin></Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="2.0" right="2.0" top="2.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="394.0" prefWidth="315.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="57.0" layoutY="54.0" prefHeight="398.4" prefWidth="290.4" spacing="40.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button fx:id="addUserButton" mnemonicParsing="false" onAction="#addUserGui" text="ADD USER" />
+                        <Button fx:id="deleteUserButton" mnemonicParsing="false" onAction="#deleteUserGui" text="DELETE USER" />
+                        <Button fx:id="UpdateUserButton" mnemonicParsing="false" onAction="#updateUserGui" text="UPDATE USER" />
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button fx:id="FindUserButton" mnemonicParsing="false" onAction="#findUserGui" text="FIND USER" />
+                              <HBox alignment="TOP_CENTER" prefHeight="92.0" prefWidth="297.0" spacing="10.0">
+                                 <children>
+                                    <Label text="User Id">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font></Label>
+                                    <TextField fx:id="UserIdTextField" prefHeight="13.0" prefWidth="124.0">
+                                       <font>
+                                          <Font size="10.0" />
+                                       </font></TextField>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="enterMyPageButton" mnemonicParsing="false" onAction="#enterMyPageButtonAction" text="ENTER MY PAGE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </VBox>
+               </children></AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
