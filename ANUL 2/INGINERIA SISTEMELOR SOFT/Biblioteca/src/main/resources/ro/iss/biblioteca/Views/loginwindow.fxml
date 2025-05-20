@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.iss.biblioteca.Controller.LoginWindow">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e5172;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="439.0" prefWidth="602.0" spacing="10.0" style="-fx-background-radius: 50; -fx-background-color: F4F3EA;">
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="150.0" right="150.0" top="5.0" />
+               </VBox.margin>
+               <children>
+                  <Label text="BIBLIOTECA" textFill="#3e5172">
+                     <font>
+                        <Font size="57.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="599.0" spacing="50.0">
+                     <children>
+                        <Label text="EMAIL" textFill="#3e5172">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="emailTextField" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="599.0" spacing="30.0">
+                     <children>
+                        <Label text="PAROLA" textFill="#3e5172">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="parolaTextField" />
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" onAction="#pressLoginButton" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="LOG IN" textFill="WHITE">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+                  <Label text="Nu ai deja un cont?" textFill="#3e5172">
+                     <font>
+                        <Font name="Cambria" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#pressSignUpButton" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="SIGN UP" textFill="WHITE">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

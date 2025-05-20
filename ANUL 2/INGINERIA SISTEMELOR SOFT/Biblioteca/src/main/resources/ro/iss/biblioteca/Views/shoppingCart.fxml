@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.iss.biblioteca.Controller.ShoppingCartWindow">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F4F3EA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="250.0">
+               <children>
+                  <Label text="COSUL MEU" textFill="#3e5172">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font></Label>
+                  <Button mnemonicParsing="false" onAction="#pressBackButton" prefHeight="46.0" prefWidth="131.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Button>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </padding></HBox>
+            <ListView fx:id="cosList" prefHeight="396.0" prefWidth="900.0" />
+            <HBox alignment="CENTER" prefHeight="111.0" prefWidth="900.0" spacing="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#pressStergeCartiButton" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="STERGE CARTI" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#pressImprumutaButton" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="IMPRUMUTA" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

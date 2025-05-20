@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.iss.biblioteca.Controller.BorrowBooksWindow">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="900.0" spacing="10.0" style="-fx-background-color: #F4F3EA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="150.0">
+               <children>
+                  <Label text="CARTI DISPONIBILE" textFill="#3e5172">
+                     <font>
+                        <Font name="System Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#pressLogoutButton" prefHeight="46.0" prefWidth="142.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="LOG OUT" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" top="11.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <ListView fx:id="cartiDisponibileList" prefHeight="358.0" prefWidth="900.0" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#pressAdaugaInCosButton" prefHeight="52.0" prefWidth="262.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="ADAUGA IN COS" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#pressVizualizeazaCosButton" prefHeight="52.0" prefWidth="266.0" style="-fx-background-color: #3e5172; -fx-border-color: #3e5172;" text="VIZUALIZEAZA COS" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
