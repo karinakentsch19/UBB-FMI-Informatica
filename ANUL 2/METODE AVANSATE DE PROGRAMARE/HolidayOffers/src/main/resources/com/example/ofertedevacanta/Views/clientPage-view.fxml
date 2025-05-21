@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ofertedevacanta.Controller.ClientPageController">
+   <children>
+      <SplitPane dividerPositions="0.6336898395721924" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.49799398194583744" prefHeight="376.0" prefWidth="799.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="374.4" prefWidth="394.4" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label text="HOTELS">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font></Label>
+                                    <TableView fx:id="hotelsTableView" onMouseClicked="#showHotelsSpecialOffers" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                          <TableColumn fx:id="hotelNameColumn" prefWidth="124.59999376535416" text="NAME" />
+                                          <TableColumn fx:id="noRoomsColumn" prefWidth="137.80001068115234" text="NUMBER OF ROOMS" />
+                                          <TableColumn fx:id="pricePerNightColumn" prefWidth="111.0" text="PRICE PER NIGHT" />
+                                          <TableColumn fx:id="typeColumn" prefWidth="73.0" text="TYPE" />
+                                      </columns>
+                                    </TableView>
+                                    <ComboBox fx:id="hotelLocationComboBox" onAction="#getSelectedLocation" prefWidth="150.0" promptText="Choose location" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="374.4" prefWidth="397.6" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label text="SPECIAL OFFERS">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font></Label>
+                                    <TableView fx:id="specialOffersTableView" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="specialOfferHotelNameColumn" prefWidth="131.19994509220123" text="HOTEL NAME" />
+                                        <TableColumn fx:id="startDateColumn" prefWidth="95.20001220703125" text="START DATE" />
+                                          <TableColumn fx:id="endDateColumn" minWidth="0.0" prefWidth="121.5999755859375" text="END DATE" />
+                                          <TableColumn fx:id="percentsColumn" minWidth="5.2000732421875" prefWidth="98.4000244140625" text="PERCENTS" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="168.0" layoutY="8.0" prefHeight="216.8" prefWidth="898.4" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label text="MAKE A RESERVATION">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="HOTEL NAME" />
+                              <TextField fx:id="hotelNameTextField" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" layoutX="10.0" layoutY="28.0" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <Label text="NO. OF NIGHTS" />
+                              <TextField fx:id="noNightsTextField" />
+                           </children>
+                        </HBox>
+                        <DatePicker fx:id="startDateReservationDatePicker" promptText="Choose start date" />
+                        <Button mnemonicParsing="false" onAction="#onPressBookHolidayButton" text="BOOK">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

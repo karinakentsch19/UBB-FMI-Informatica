@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.faptebune.Controller.MyPageController">
+   <children>
+      <TabPane layoutX="35.0" layoutY="23.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Doresc sa ajut!">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.4999999999999999" prefHeight="371.2" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <VBox alignment="TOP_CENTER" prefHeight="369.6" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label text="LISTA DE NEVOI">
+                                             <font>
+                                                <Font size="21.0" />
+                                             </font>
+                                          </Label>
+                                          <TableView fx:id="nevoiDinOrasulMeuTable" onMouseClicked="#rezolvaONevoie" prefHeight="200.0" prefWidth="200.0">
+                                            <columns>
+                                              <TableColumn fx:id="titluNevoiOrasColumn" prefWidth="75.0" text="TITLU" />
+                                              <TableColumn fx:id="descriereNevoiOrasColumn" prefWidth="75.0" text="DESCRIERE" />
+                                                <TableColumn fx:id="deadlineNevoiOrasColumn" prefWidth="75.0" text="DEADLINE" />
+                                                <TableColumn fx:id="omInNevoieNevoiOrasColumn" prefWidth="95.20002746582031" text="OM IN NEVOIE" />
+                                                <TableColumn fx:id="statusNevoiOrasColumn" prefWidth="75.0" text="STATUS" />
+                                            </columns>
+                                          </TableView>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <VBox alignment="TOP_CENTER" prefHeight="369.6" prefWidth="296.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label text="FAPTE BUNE">
+                                             <font>
+                                                <Font size="21.0" />
+                                             </font>
+                                          </Label>
+                                          <TableView fx:id="fapteBuneTable" prefHeight="200.0" prefWidth="200.0">
+                                            <columns>
+                                              <TableColumn fx:id="titluFapteBuneColumn" prefWidth="75.0" text="TITLU" />
+                                              <TableColumn fx:id="descriereFapteBuneColumn" prefWidth="75.0" text="DESCRIERE" />
+                                                <TableColumn fx:id="deadlineFapteBuneColumn" prefWidth="75.0" text="DEADLINE" />
+                                                <TableColumn fx:id="omInNevoieFapteBuneColumn" prefWidth="93.19999694824219" text="OM IN NEVOIE" />
+                                                <TableColumn fx:id="statusFapteBuneColumn" prefWidth="73.5999755859375" text="STATUS" />
+                                            </columns>
+                                          </TableView>
+                                       </children></VBox>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Doresc sa fiu ajutat!">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="371.2" prefWidth="800.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label text="ADAUGA O NEVOIE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                 <children>
+                                    <Label text="TITLU" />
+                                    <TextField fx:id="titluAdaugaONevoieTextfield" prefHeight="26.0" prefWidth="155.0" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                 <children>
+                                    <Label text="DESCRIERE" />
+                                    <TextField fx:id="descriereAdaugaONevoieTextfield" prefHeight="26.0" prefWidth="162.0" />
+                                 </children>
+                              </HBox>
+                              <DatePicker fx:id="deadlineDatepicker" promptText="CHOOSE  DEADLINE" />
+                              <Button mnemonicParsing="false" onAction="#onPressAddNevoieButton" text="ADD">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets bottom="20.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

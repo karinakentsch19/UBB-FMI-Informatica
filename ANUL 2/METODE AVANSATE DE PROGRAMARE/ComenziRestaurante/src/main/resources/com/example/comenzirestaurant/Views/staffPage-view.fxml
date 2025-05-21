@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.comenzirestaurant.Controller.StaffPageController">
+   <children>
+      <VBox layoutX="200.0" layoutY="52.0" prefHeight="400.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="PLACED ORDERS">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <TableView fx:id="placedOrdersStaffTableView" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="tableIdColumn" prefWidth="101.20001220703125" text="TABLE NUMBER" />
+                <TableColumn fx:id="dateColumn" prefWidth="87.5999755859375" text="DATE" />
+                  <TableColumn fx:id="itemsColumn" prefWidth="410.79998779296875" text="ORDERED ITEMS" />
+              </columns>
+            </TableView>
+            <Button mnemonicParsing="false" onAction="#onPressPreparingThisOrderButton" text="PREPARING THIS ORDER" />
+            <Label text="PREPARING ORDERS">
+               <font>
+                  <Font size="23.0" />
+               </font></Label>
+            <TableView fx:id="preparingOrdersTableView" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="tableNumberPreparingOrdersColumn" prefWidth="102.20001524686813" text="TABLE NUMBER" />
+                <TableColumn fx:id="datePreparingOrdersColumn" prefWidth="90.5999755859375" text="DATE" />
+                  <TableColumn fx:id="itemsPreparingOrdersColumn" prefWidth="406.79991149902344" text="ORDERED ITEMS" />
+              </columns>
+            </TableView>
+            <Button mnemonicParsing="false" onAction="#onPressDeliveredThisOrderButton" text="DELIVERED THIS ORDER" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
