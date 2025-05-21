@@ -4,7 +4,7 @@
 - 🎲 Logică computațională
 - 🐍 [Fundamentele programării](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/4c213dd50242fb72027eb9f8c846abeddcf5e96b/ANUL%201/FUNDAMENTELE%20PROGRAMARII)
 - 🖥️ Arhitectura sistemelor de calcul
-- 🔧 Programare orientată obiect
+- 🔧 [Programare orientată obiect](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/33544bb7858992b7f21c341200f298d45e6e414f/ANUL%201/PROGRAMARE%20ORIENTATA%20OBIECT)
 - 📈 Sisteme dinamice
 - 🗃️ [Structuri de date și algoritmi](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/410eff2ab43c77151c1c65cf33ea379c82d12230/ANUL%201/STRUCTURI%20DE%20DATE%20SI%20ALGORITMI)
 - 🚀 [Algoritmica grafelor](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/410eff2ab43c77151c1c65cf33ea379c82d12230/ANUL%201/ALGORITMICA%20GRAFELOR)
