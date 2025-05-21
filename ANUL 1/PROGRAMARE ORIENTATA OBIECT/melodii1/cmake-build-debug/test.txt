@@ -1,0 +1,3 @@
+3,morisca,aurel mali,4
+2,floare,irimies vosi,7
+1,cer,kentsch karina,10

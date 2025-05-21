@@ -1,0 +1,4 @@
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/subiecte practic sesiune oop/melodii1/cmake-build-debug/CMakeFiles/melodii1.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/subiecte practic sesiune oop/melodii1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/subiecte practic sesiune oop/melodii1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/subiecte practic sesiune oop/melodii1/cmake-build-debug/CMakeFiles/melodii1_autogen.dir
