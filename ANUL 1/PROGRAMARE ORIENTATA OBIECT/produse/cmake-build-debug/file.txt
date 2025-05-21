@@ -1,0 +1,9 @@
+9,fasda,fruct,2
+2,lapte,lactate,11.2
+1,banana,fruct,12.3
+5,cioco,dulce,12.3
+7,jsadhks,cioco,12.3
+6,fruct,fruct,12.5
+8,asda,dulce,19
+3,miere,altele,20.3
+4,morcov,leguma,70

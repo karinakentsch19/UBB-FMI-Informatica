@@ -1,0 +1,3 @@
+2,lapte,lactate,11.2
+1,banana,fruct,12.3
+3,miere,altele,20.3
