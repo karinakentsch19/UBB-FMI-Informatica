@@ -1,0 +1,4 @@
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/BIBLIOTECA/cmake-build-debug/CMakeFiles/BIBLIOTECA.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/BIBLIOTECA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/BIBLIOTECA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Karina - Synced/UBB KENTSCH KARINA/ANUL I/SEMESTRU 2/PROIECTE_OOP/BIBLIOTECA/cmake-build-debug/CMakeFiles/BIBLIOTECA_autogen.dir

@@ -1,0 +1,6 @@
+3,Ion,Liviu Rebreanu,aventura,3111
+4,Oau,Pop Ionel,aventura,8987
+1,mancare,kentsch karina,sf,312
+5,Flori,nemes tania,romance,4121
+2,Flori,pop gabi,sf,1233
+6,anajk,sdkjh,jk,1234
