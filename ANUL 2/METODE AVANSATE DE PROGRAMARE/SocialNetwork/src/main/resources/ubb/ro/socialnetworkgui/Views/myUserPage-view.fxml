@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.ro.socialnetworkgui.Controller.MyUserPage">
+   <children>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.542503346720214" prefHeight="196.0" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <VBox prefHeight="194.4" prefWidth="321.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label text="MY FRIENDS" textFill="#2114d1">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TableView fx:id="friendsTableView" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="myFriendIdTableColumn" prefWidth="75.0" text="ID" />
+                                        <TableColumn fx:id="myFriendNameTableColumn" prefWidth="75.0" text="NAME" />
+                                          <TableColumn fx:id="myFriendMeetingDateTableColumn" prefWidth="109.20002746582031" text="MEETING DATE" />
+                                      </columns>
+                                    </TableView>
+                                    <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <Button fx:id="friendshipPreviousButton" mnemonicParsing="false" onAction="#pressOnPreviousButtonFriendsMyPage" text="PREV" />
+                                          <Button fx:id="friendshipNextButton" mnemonicParsing="false" onAction="#pressOnNextButtonFriendsMyPage" text="NEXT" />
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="2.0" top="10.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <VBox alignment="TOP_CENTER" prefHeight="194.4" prefWidth="270.4" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <ChoiceBox fx:id="friendChoiceBox" prefWidth="150.0" />
+                                    <Button fx:id="sendRequestButton" mnemonicParsing="false" onAction="#pressOnSendRequestButton" text="SEND REQUEST" />
+                                    <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                       <children>
+                                          <Button fx:id="openChatWithFriendButton" mnemonicParsing="false" onAction="#pressOnOpenChatWithFriendButton" text="OPEN CHAT" />
+                                          <Button fx:id="msgForFriendsButton" mnemonicParsing="false" onAction="#pressOnSendMsgToFriendsButton" text="MESSAGE FOR FRIENDS" />
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="removeFriendButton" mnemonicParsing="false" onAction="#pressOnRemoveFriendButton" text="REMOVE FRIEND" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="20.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.542503346720214" prefHeight="196.0" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <VBox prefHeight="194.4" prefWidth="321.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label text="FRIEND REQUESTS" textFill="#2114d1">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TableView fx:id="requestsTableView" prefHeight="200.0" prefWidth="200.0">
+                                      <columns>
+                                        <TableColumn fx:id="friendrequestIdTableColumn" prefWidth="75.0" text="ID" />
+                                        <TableColumn fx:id="friendrequestFirstnameTableColumn" prefWidth="75.0" text="FIRSTNAME" />
+                                          <TableColumn fx:id="friendrequestLastnameTableColumn" prefWidth="75.0" text="LASTNAME" />
+                                      </columns>
+                                    </TableView>
+                                    <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <Button fx:id="friendrequestPreviousButton" mnemonicParsing="false" onAction="#pressOnFriendRequestPrevButton" text="PREV" />
+                                          <Button fx:id="friendrequestNextButton" mnemonicParsing="false" onAction="#pressOnFriendRequestNextButton" text="NEXT" />
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="2.0" top="10.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="158.0" prefWidth="407.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="194.4" prefWidth="270.4" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Button fx:id="AcceptRequestButton" mnemonicParsing="false" onAction="#pressOnAcceptRequestButton" text="ACCEPT REQUEST" />
+                                    <Button fx:id="DenyRequestButton" mnemonicParsing="false" onAction="#pressOnDenyRequestButton" text="DENY REQUEST" />
+                                    <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Label text="No. of rows in table">
+                                             <font>
+                                                <Font size="13.0" />
+                                             </font></Label>
+                                          <TextField fx:id="myUserPageNumberOfRowsTextfield" onKeyPressed="#myUserPageNoOfRowsChangedTextField" prefHeight="8.0" prefWidth="150.0" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

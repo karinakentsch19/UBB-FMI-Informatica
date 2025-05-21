@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.ro.socialnetworkgui.Controller.UserAttributesController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="244.0" layoutY="39.0" prefHeight="400.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="SIGN UP" textFill="#2114d1">
+               <font>
+                  <Font name="System Bold" size="54.0" />
+               </font>
+            </Label>
+            <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="FirstName">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="firstnameTextField" />
+               </children></HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="50.0" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="LastName">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="lastnameTextField" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="170.0" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="Password">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="passwordTextField" />
+               </children>
+            </HBox>
+            <Button fx:id="UserAttributresDoneButton" mnemonicParsing="false" onAction="#finishSettingUserAttributes" text="SIGN UP" />
+         </children>
+         <padding>
+            <Insets top="40.0" />
+         </padding></VBox>
+   </children>
+</AnchorPane>
