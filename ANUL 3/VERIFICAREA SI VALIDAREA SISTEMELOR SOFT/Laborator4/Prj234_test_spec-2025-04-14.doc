@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Proiect234 - kkir3356_IntT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Proiect234<br/>Test Suite: Proiect234 - kkir3356_IntT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 14/04/2025</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.kkir3356_IntT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc25777">Prj234-61: UnitTestService</a></p><p style="padding-left: 45px;"><a href="#toc_tc25779">Prj234-62: Step2IntegrationTest</a></p><p style="padding-left: 45px;"><a href="#toc_tc25781">Prj234-63: Step3FullIntegrationTest</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Proiect de testare pentru studentii din grupa 234.</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : kkir3356_IntT</h1>
+<div><p>Testare de integrare</p>
+</div><a name="toc_tc25777"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj234-61: UnitTestService&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">kkir3356</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Lista de Payments este formata din Payment-ul cu atributele (1, &quot;CASH&quot;, 12.2)</p>
+
+<p>Se testeaza totalAmount de payments per tip de tranzactie.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Lista de Payments = [Payment(1, &quot;CASH&quot;, 12.2)]</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >pizzashop.service.PizzaServiceUnitTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >pizzashop.service.PizzaServiceUnitTest#paymentTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">kkir3356_F02:  Afisare total incasari [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc25779"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj234-62: Step2IntegrationTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">kkir3356</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Fisierul contine o singura inregistrare formatata gresit.</p>
+
+<p>Lista meniului care este returnata va fi goala.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Fisierul contine o singura inregistrare cu format gresit.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >pizzashop.service.PizzaServiceIntegrationTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >pizzashop.service.PizzaServiceIntegrationTest#invalidTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">kkir3356_F01:  Realizarea unei plati [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc25781"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj234-63: Step3FullIntegrationTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">kkir3356</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Fisierul contine doua inregistrari, una formatata gresit, iar cealalata corect.</p>
+
+<p>Se returneaza lista formata din inregistrarea cu format corect.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Fisierul contine 2 inregistrari, una corecta, una gresita.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >pizzashop.service.PizzaServiceFullIntegrationTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >pizzashop.service.PizzaServiceFullIntegrationTest#validTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">kkir3356_F01:  Realizarea unei plati [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
