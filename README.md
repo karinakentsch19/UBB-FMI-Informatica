@@ -29,7 +29,7 @@
 - ☁️ [Interacțiunea om-calculator](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/8943e53775639062b7df18e978950e5df757f3ca/ANUL%203/INTERACTIUNEA%20OM-CALCULATOR)
 - ⚙️ [Metode de rezolvare a problemelor reale](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/e304d4286bcd8f748107638ba9257c30b64fe514/ANUL%203/METODE%20INTELIGENTE%20DE%20REZOLVARE%20A%20PROBLEMELOR%20REALE)
 - 🤝 Proiect colectiv
-- 🔍 Verificarea și validarea sistemelor soft
+- 🔍 [Verificarea și validarea sistemelor soft](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/efdafc0a9c7d54a1ca0219cc3e323d3eacd6c927/ANUL%203/VERIFICAREA%20SI%20VALIDAREA%20SISTEMELOR%20SOFT)
 - ⚖️ [Calcul numeric](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/1562af158d299162243a0989a00d8e851c6ad7a8/ANUL%203/CALCUL%20NUMERIC)
 - 🎮 [Grafică pe calculator](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/7d4bab042f4303c219b9ca4e20f3dd802f71da4e/ANUL%203/GRAFICA%20PE%20CALCULATOR)
 - 🕰️ [Istoria informaticii](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/80f06f9b370f7d87af4de1acc5df636cd0d6c168/ANUL%203/ISTORIA%20INFORMATICII)
