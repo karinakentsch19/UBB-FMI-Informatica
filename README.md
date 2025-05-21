@@ -17,7 +17,7 @@
 - 📡 Rețele de calculatoare
 - 🎲 [Probabilități și statistică](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/a56a184a190c5d0bd783f2a26d222fe055c9d84a/ANUL%202/PROBABILITATI%20SI%20STATISTICA/Laboratoare)
 - 💻 [Programare web](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/14600851f4bf300f67a9c621947c4f9628b8ceeb/ANUL%202/PROGRAMARE%20WEB)
-- 🤖 Inteligență artificială
+- 🤖 [Inteligență artificială](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/aaf1a23349d03288a4a753ba85de039a1cc4b398/ANUL%202/INTELIGENTA%20ARTIFICIALA)
 - 🧰 [Medii de proiectare și programare](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/f03b1680566b0e84feae3e51905bc28088013988/ANUL%202/MEDII%20DE%20PROIECTARE%20SI%20PROGRAMARE)
 - 🏗️ [Ingineria sistemelor soft](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/f449a97ef7eb25df73a3a1f1ea672afbfcb8cb7f/ANUL%202/INGINERIA%20SISTEMELOR%20SOFT)
 - 🟡 [Sisteme de gestiune a bazelor de date](https://github.com/karinakentsch19/UBB-FMI-Informatica/tree/76a3dba58416d08307df5100b3dfc679676b4306/ANUL%202/SISTEME%20DE%20GESTIUNE%20A%20BAZELOR%20DE%20DATE)
